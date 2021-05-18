@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Application </title>
+<link href='style.css' rel="stylesheet">
+<style>
+    /* h1{
+        color : blue;
+    } */
+
+    #main_heading{
+
+        /* color keyword */
+        /* color : blue; */
+       
+       /* color code (hex code)*/
+        /* color : #000080 */
+
+        /* rgb code */
+        /* color : rgb(0,0,128); */
+
+         /* rgb code */
+         color : rgba(0,0,128, 0.8)
+    }
+
+    .para{
+        color : gray
+    }
+
+    #ai_image{
+        height: 400px;
+    }
+
+    body{
+        padding: 50px;
+    }
+
+    .blog{
+        background-color: rgb(224, 224, 250);
+        padding: 20px;
+
+        /* padding-top: 20px;
+        padding-bottom: 20px; */
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        /* margin-left: 20px;
+        margin-right: 20px; */
+
+        /* top-bottom right-left*/
+        margin: 20px 10px;
+
+        /* top-right-bottom-left */
+        margin: 10px 20px 30px 20px;
+
+        
+    }
+
+    #mybutton{
+        background-color: blue;      
+        color: white;
+        padding: 5px;
+        margin: 10px;
+        
+            /* size style color */
+        border: 1px solid white;  
+        cursor: pointer;
+        box-shadow : 2px 2px;
+    }
+
+    .Comments-form{
+        background-color: rgb(235, 233, 233);
+        padding: 10px;
+        margin: 20px;
+        border: 1px solid blue;
+    }
+
+    input,textarea {
+        padding: 10px;
+        margin:10 px;
+        border: none;
+        width: 80%  
+
+    }
+
+    * {
+        color : black
+    }
+    
+
+</style>
+	
+</head>
+<body>
+
+<div class="blog">
+    <h1 id='main_heading' >Artificial intelligence</h1>
+    <a href='#' >Previous Blog</a>
+    <a href='#'>Next Blog</a>
+
+    <br> <br>
+
+    <img id='ai_image' src='https://res.cloudinary.com/lwgatsby/f_auto/www/uploads/2020/04/1200px-What-is-artificial-intelligence-_What_is_artificial_intelligence.jpg'  >
+
+    <div>
+        <p class='para'>Artificial intelligence is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals, which involves consciousness and emotionality. The distinction between the former and the latter categories is often revealed by the acronym chosen. </p>
+
+        <p class='para'>AI makes it easy to create data analytics and visualisation</p>
+    </div>
+
+    <a href='https://alekya.ai/ai'>Learn Step into AI at Alekya.ai</a>
+    <br>
+    <button id='mybutton' title='Read More'>Read More</button>
+</div>
+
+
+<div class="blog">
+        This is blog 2
+</div>
+
+<div class="blog">
+    <p style="color:red" >This is blog 3</p>
+</div>
+
+
+<h1>Comments section</h1>
+
+<div class='Comments-form'>
+    <form>
+        <lable>Enter Your Name</lable> <br>
+        <input type='text' placeholder="Enter Your Name"> <br> <br>
+
+        <lable>Enter Your Comment</lable> <br>
+        <textarea></textarea><br> <br>
+
+        <lable>Enter Date</lable> <br>
+        <input type='date'> <br> <br>
+
+        <lable>Enter Time</lable> <br>
+        <input type='time'> <br> <br>
+
+        <!-- <select>
+            <option>
+                
+            </option>
+        
+            <option>
+                Female
+            </option>
+        </select> -->
+
+
+
+        <button>Submit</button>
+    </form>
+</div>
+<script src='main.js'></script>
+<script>
+    // alert("Welcome")
+</script>
+
+
+</body>
+
+
+</html>
