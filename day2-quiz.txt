@@ -1,0 +1,65 @@
+1) javascript is a _____scripting language.
+
+a) server-side  
+b) Client-side  (right)
+c) web browser
+d) all the above
+
+2) python is a _____scripting language.
+
+a) server-side  (right)
+b) Client-side  
+c) web browser
+d) all the above
+
+3) javascript requires a software to execute code?
+a) yes
+b) no (right)
+
+4) how many scripting modes in python?
+a) 1
+b) 3
+c) 4
+d) 2 (right)
+
+5) javascript console output is made by?
+a) console.log() (right)
+b) print()
+c) alert()
+d) onclick()
+
+6) one indentation level is equeal to?
+a) 4 tab space
+b) 4 spaces  (right)
+c) two tab spaces
+d) 6 spaces
+
+7) python have access to database?
+a) yes  (right)
+b) no 
+
+8) javascript array items are accessed using __?
+a) key
+b) index position (0,1,2)   (right)
+c) item_name
+d) none of the above
+
+
+8) javascript object items are accessed using __?
+a) key   (right)
+b) index position (0,1,2)
+c) item_name
+d) none of the above
+
+9) java and javascript are same?
+a) yes
+b) no  (right)
+
+10) javascript file is saved with the extention?
+a) .js   (right)
+b) .jsx
+c) .java
+d) .javascript
+
+
+
