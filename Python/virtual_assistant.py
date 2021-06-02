@@ -2,7 +2,7 @@
 # Step - 1 ( Read Json file)
 import json
 
-f = open("C:\\Users\\perso\\Desktop\\AI-Driven-App\\Python\\chat.json")
+f = open("chat.json")
 
 data = json.load(f)
 
